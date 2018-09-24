@@ -1,0 +1,26 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.navi {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navi > li{
+    display: inline;
+    margin: 5px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#top-bar {
+    height: 30px;
+    background: black;
+}
+
+header {
+    height: 100vh - 30px;
+    width: 100vw;
+}
