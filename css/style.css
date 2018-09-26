@@ -8,16 +8,50 @@ body{
     margin: 0;
 }
 
+
+.social_navi {
+    list-style-type: none;
+    margin: 9px;
+}
+
 .navi > li{
     display: inline;
     margin: 5px;
     font-family: sans-serif;
     color: white;
+    border-right: 2px solid white;
+    padding-right: 5px;   
+}
+
+.social_navi li{
+  float:right;
+  margin:5px;
+  text-decoration:none;
+  display:inline;
+  
+}
+.social_navi a{
+  text-decoration:none;
+  color:
 }
 
 #top-bar {
     height: 30px;
     background: black;
+    padding-top:5px;
+}
+.navi a{
+  color:white;
+  text-decoration: none;
+}
+
+.social_navi a:hover {
+   text-decoration: underline; 
+}
+
+
+.navi a:hover {
+   text-decoration: underline; 
 }
 
 header {
