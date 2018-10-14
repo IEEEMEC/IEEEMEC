@@ -32,29 +32,39 @@ body{
 }
 .social_navi a{
   text-decoration:none;
-  color:
+  color:white;
 }
 
 #top-bar {
     height: 30px;
     background: black;
-    padding-top:5px;
+    padding-top:9px;
+    background: linear-gradient(gray,black,gray)
 }
 .navi a{
   color:white;
   text-decoration: none;
+  font-size: :25px;
 }
 
 .social_navi a:hover {
-   text-decoration: underline; 
+   text-decoration: none;
+   font-size:25px;
 }
 
 
 .navi a:hover {
    text-decoration: underline; 
+   font-size:20px;
 }
 
 header {
     height: 100vh - 30px;
     width: 100vw;
+}
+#social{
+    position:fixed;
+    top:0px;
+    left:1180px;
+    padding-bottom: 12px;
 }
