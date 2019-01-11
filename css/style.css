@@ -1,144 +1,52 @@
-.header {
-  overflow: hidden;
-  background-color: teal;
-  padding: 20px 10px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
+<!Doctype HTML>
+<html>
 
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-.header {
+<head>
+    <title>
+        IEEE | Model Engineering College
+    </title>
+    <meta charset="utf-8">
+    <!--Outside resources-->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./img/favicon.ico">
+</head>
 
-.header a.ieee {
-  font-size: 25px;
-  font-weight: bold;
-}
-.header a:hover {
-  background-color: slateblue;
-  color: black;
-}
-.header a.active {
-  background-color: teal;
-  color: slategray;
-}
+<body>
+    <div class="header">
+        <a href="https://www.ieee.org/" class="ieee">IEEE.org</a>
+        <a href="https://www.ieee.org/Loginforms/myIEEE/login.html">myIEEE </a>
+        <a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Xplore Digital Library </a>
+        <a href="https://spectrum.ieee.org/">IEEE Spectrum</a>
+        <a href="https://www.ieeer10.org/">IEEE Region 10</a>
+        <a href="https://ieeekerala.org/">IEEE Kerala Section</a>
+   
+      <div class="header-right">
+          <a href="https://www.facebook.com/ieeemec" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/ieeemec" class="fa fa-twitter"></a>
+      </div>
+   </div>
+    <div class="c1 row center-xs">
+        <div class="row center-xs col-xs-12">
+            <a href="https://ieee.mec.ac.in">
+                <div class="c3 c2"><img alt="the IEEE MEC logo" src="./img/IEEEMEC-Full.jpg"
+                        class="c5"></div>
+            </a>
+        </div>
+        <div class="row center-xs col-xs-12">
+            <div class="col-xs-12">
+                <h1 class="c8 c11 c6"><a href="https://ieee.mec.ac.in/">IEEE SB | MEC</a></h1>
+            </div>
+            <div class="col-xs-12">
+                <h2 class="c8 c14 c25 c7">Govt. Model Engineering College, Kochi</h2>
+            </div>
+        </div>
+    </div>
 
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-    }
-    .center-xs {
-      -ms-flex-pack: center;
-      -webkit-box-pack: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .c1 {
-    color: #f5f5f5;
-    z-index: 999;
-    flex-grow: 1;
-    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),0px 4px 5px 0px rgba(0, 0, 0, 0.14),0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-    padding-top: 104px;
-    padding-bottom: 104px;
-    background-color: #512da8;
-    }
+    <header>
+    </header>
     
-    .col-xs-12 {
-      -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-      max-width: 100%;
-    }
+</body>
 
-    .c3 {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    font-size: 20px;
-    align-items: center;
-    flex-shrink: 0;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    user-select: none;
-    border-radius: 50%;
-    justify-content: center;
-    }
-
-    
-    .c5 {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    }
-
-    .c2 {
-    width: 145px;
-    height: 145px;
-    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),0px 4px 5px 0px rgba(0, 0, 0, 0.14),0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-    margin-bottom: 1em;
-    }
-
-
-    .c8 {
-    margin: 0;
-    display: block;
-    }
-
-    .c11 {
-    color: rgba(0, 0, 0, 0.54);
-    font-size: 2.8125rem;
-    font-weight: 400;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    line-height: 1.06667em;
-    margin-left: -.04em;
-    }
-
-    .c6 {
-    color: inherit;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: .2em;
-    }
-
-    .c7 {
-    color: inherit;
-    opacity: 0.7;
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 3em;
-    }
-
-    .c14 {
-    color: rgba(0, 0, 0, 0.87);
-    font-size: 1.3125rem;
-    font-weight: 500;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    line-height: 1.16667em;
-    }
-
-    
-    .c25 {
-    margin-bottom: 0.35em;
-    }
+</html>
