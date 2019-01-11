@@ -1,0 +1,12 @@
+.mec-logo {
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  background: #5992d8
+}
+
+footer {
+  color: #f5f5f5;
+  background-color: rgba(0, 0, 0, 0.87);
+  height: 30vh;
+}
