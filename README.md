@@ -24,3 +24,10 @@ This is the source of the official website front-end for the IEEE SB at Model En
 **Not So Important**
 
 * Build a Jekyll/HuGo theme with the design that is a by-product of this endeavour.
+
+
+## Theme Colors
+* Background-main : #fafafa
+* Color-main : #2661a9, for logos and the like...
+* Background-footer : #202020
+* Color-footer : #f5f5f5
