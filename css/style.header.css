@@ -15,12 +15,17 @@ header {
   -webkit-box-pack: center;
   justify-content: center;
   text-align: center;
-  vertical-align:middle;
 }
 
 .col-centred {
+  width: 100vw;
   text-align: center;
 }
+
+.holder {
+  vertical-align: middle;
+}
+
 
 img.logo {
   width: 250px;
