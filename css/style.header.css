@@ -19,6 +19,10 @@ header {
   text-align: center;
 }
 
+.main{
+  padding-top: 7%;
+}
+
 .col-centred {
   width: 100vw;
   text-align: center;

@@ -9,16 +9,32 @@ footer {
   color: #f5f5f5;
   background-color: rgba(0, 0, 0, 0.87);
   min-height: 30vh;
+  display: flex;
 }
 
 .holder {
-  vertical-align: middle;
-  margin-left: 10%;
+  padding-top: 10%;
+  margin-left: 2%;
+  text-align: left;
+  max-width: 600px;
+}
+
+.holder > h1 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.holder > img {
+  padding-top: 10px;
+}
+
+.social {
+  align-items: flex-end;
+  justify-content: end;
+  width: 100%;
 }
 
 .flex-center {
-  width: 100%;
-  min-height: 50vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -59,5 +75,15 @@ footer {
   }
   100% {
     text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer{
+    display: block;
+  }
+  .social {
+    height: 100vh;
+    width: 100%;
   }
 }
