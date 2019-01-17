@@ -49,6 +49,17 @@ footer {
   align-items: center;
 }
 
+.flex-center > img {
+  padding: 0.2em;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.flex-center > img:hover {
+  -webkit-filter: none;
+    filter: none;
+}
+
 .icon-3d {
   padding: 10px;
   -webkit-animation: icon3d 200ms 10;
@@ -79,7 +90,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  footer{
+  footer {
     display: block;
   }
   .social {
