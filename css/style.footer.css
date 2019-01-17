@@ -53,6 +53,7 @@ footer {
   padding: 0.2em;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  width: 10em;
 }
 
 .flex-center > img:hover {
