@@ -49,13 +49,6 @@ h2 {
   margin-bottom: 3em;
 }
 
-.mec-logo {
-  -webkit-box-pack: center;
-  justify-content: center;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.87);
-}
-
 footer {
   width: 100vw;
   color: #f5f5f5;
