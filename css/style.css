@@ -1,0 +1,165 @@
+body {
+  font: 16px/1.618 "Roboto", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header {
+  color: #2661a9;
+  z-index: 999;
+  flex-grow: 1;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 104px;
+  padding-bottom: 104px;
+  background-color: #fafafa;
+  width: 100vw;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  vertical-align: middle;
+}
+
+.col-centred {
+  max-width: 100vw;
+  text-align: center;
+}
+
+.holder > img {
+  margin-top: 3%;
+}
+
+img.logo {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+  color: inherit;
+  opacity: 0.7;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 3em;
+}
+
+footer {
+  width: 100vw;
+  color: #f5f5f5;
+  background-color: rgba(0, 0, 0, 0.87);
+  min-height: 30vh;
+  display: flex;
+}
+
+.holder {
+  padding-top: 10%;
+  margin-left: 2%;
+  text-align: left;
+  max-width: 600px;
+}
+
+.holder > h1 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.holder > img {
+  padding-top: 10px;
+}
+
+.social {
+  align-items: flex-end;
+  justify-content: end;
+  width: 100%;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-center > img {
+  padding: 0.2em;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 10em;
+}
+
+.flex-center > img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.footer-logo {
+  margin-top: -150px;
+}
+
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: #fff;
+}
+
+.text-3d {
+  font-size: 2rem;
+  background: #fff;
+  color: #2661a9;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.icon-3d:hover {
+  color: #2661a9;
+  -webkit-animation: icon3d 200ms infinite;
+  animation: icon3d 200ms infinite;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+  }
+  25% {
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+  }
+  50% {
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+  }
+  75% {
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+  }
+  100% {
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-center > img {
+    display: none;
+  }
+  .flex-center > img.mec-logo {
+    display: block;
+  }
+  footer {
+    display: block;
+  }
+  .social {
+    height: 100vh;
+    width: 100%;
+  }
+}
