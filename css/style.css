@@ -146,7 +146,15 @@ footer {
 #menu li{
     padding-right: 30px;
 }
-
+#menu li a{
+    text-decoration: none;
+    color:currentColor;
+}
+.progress-bar {
+  height: 5px;
+  background: #2661a9;
+  width: 0%;
+}
 @keyframes icon3d {
   0% {
     text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
