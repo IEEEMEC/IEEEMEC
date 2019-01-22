@@ -13,11 +13,17 @@ header {
   padding-top: 104px;
   padding-bottom: 104px;
   background-color: #fafafa;
-  height: 100vh;
   width: 100vw;
   -webkit-box-pack: center;
   justify-content: center;
   text-align: center;
+}
+
+.text-3d {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2661a9;
+  text-shadow: 0 0 10px #303030;
 }
 
 .main {
@@ -58,7 +64,6 @@ footer {
 }
 
 .holder {
-  padding-top: 10%;
   margin-left: 2%;
   text-align: left;
   max-width: 600px;
@@ -77,6 +82,14 @@ footer {
   align-items: flex-end;
   justify-content: end;
   width: 100%;
+}
+
+.footer-logo {
+  background-color: #fff;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0px -2px 10px 5px rgba(250, 250, 250, 0.2),
+    0px 4px 5px 0px rgba(250, 250, 250, .30), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .flex-center {
@@ -112,7 +125,9 @@ footer {
   animation: icon3d 200ms 10;
   color: #fff;
 }
+
 .icon-3d:hover {
+  color: #2661a9;
   -webkit-animation: icon3d 200ms infinite;
   animation: icon3d 200ms infinite;
 }
