@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Outside resources-->
     <link href="css/style.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="icon" href="./img/favicon.ico" />
   </head>
 
-  <body>
+  <body onscroll="para()">
+      <nav id="navbr">
+        <ul id="menu">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>EVENTS</li>
+            <li>UPDATES</li>
+            <li>IEEE</li>
+        </ul>
+      </nav>
     <header>
       <div class="main">
         <div class="col-centred">
@@ -44,7 +45,7 @@
     <footer>
       <div class="holder">
         <a href="https://ieee.org">
-          <img class="footer-logo" src="./img/IEEE-logo.svg" alt=""></i>
+          <img class="footer-logo" src="./img/IEEE-logo.svg" alt="">
           </a>
         <h1>IEEE SB | MEC</h1>
         <p>We are a thriving community of Students of Model Engineering College associated with the 
@@ -53,10 +54,11 @@
 
       <div class="social flex-center">
         <a href="https://twitter.com/ieeemec" target="_blank"><i class="fa fa-twitter fa-4x icon-3d"></i></a>
-        <a href="https://facebook.com/ieeemec" target="_blank"></a><i class="fa fa-facebook fa-4x icon-3d"></i></a>
-        <a href="https://instagram.com/ieeemec" target="_blank"></a><i class="fa fa-instagram fa-4x icon-3d"></i></a>
+        <a href="https://facebook.com/ieeemec" target="_blank"><i class="fa fa-facebook fa-4x icon-3d"></i></a>
+        <a href="https://instagram.com/ieeemec" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i></a>
         <a href="https://linkedin.com/company/ieeemec" target="_blank"><i class="fa fa-linkedin fa-4x icon-3d"></i></a>
       </div>
     </footer>
+      <script src="js/app.js"></script>
   </body>
 </html>

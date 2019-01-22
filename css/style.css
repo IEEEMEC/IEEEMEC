@@ -130,6 +130,23 @@ footer {
   animation: icon3d 200ms infinite;
 }
 
+#navbr{
+    width:100%;
+    height:80px;
+    background-color:transparent;
+    position: fixed;
+}
+#menu{
+    position: relative;
+    top:15%;
+    display: flex;
+    list-style: none;
+    float:right;
+}
+#menu li{
+    padding-right: 30px;
+}
+
 @keyframes icon3d {
   0% {
     text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
