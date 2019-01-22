@@ -93,7 +93,6 @@ footer {
 }
 
 .holder {
-  padding-top: 10%;
   margin-left: 2%;
   text-align: left;
   max-width: 600px;
@@ -141,22 +140,11 @@ footer {
   filter: none;
 }
 
-.footer-logo {
-  margin-top: -10%;
-}
-
 .icon-3d {
   padding: 10px;
   -webkit-animation: icon3d 200ms 10;
   animation: icon3d 200ms 10;
   color: #fff;
-}
-
-.text-3d {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #2661a9;
-  text-shadow: 0 0 10px #303030;
 }
 
 .icon-3d:hover {
