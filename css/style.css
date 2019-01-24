@@ -19,6 +19,7 @@ header {
   text-align: center;
 }
 
+<<<<<<< HEAD
 #navbr {
   width: 100%;
   height: 80px;
@@ -53,6 +54,13 @@ header {
   height: 5px;
   background: #2661a9;
   width: 0%;
+=======
+.text-3d {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fafafa;
+  text-shadow: 0 0 10px #303030;
+>>>>>>> Change color of 3D text
 }
 
 .main {
