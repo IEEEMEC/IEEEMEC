@@ -129,6 +129,72 @@ footer {
   animation: icon3d 200ms infinite;
 }
 
+#navbr{
+    width:100%;
+    height:80px;
+    background-color:transparent;
+    position: fixed;
+    z-index: 10;
+}
+#menu{
+    position: relative;
+    top:15%;
+    display: flex;
+    list-style: none;
+    float:right;
+}
+#menu li{
+    padding-right: 30px;
+}
+#menu li a{
+    font-family:sans-serif;
+    text-decoration: none;
+    color:currentColor;
+}
+.progress-bar {
+  height: 5px;
+  background: #2661a9;
+  width: 0%;
+}
+#navimg{
+    width:110px;
+}
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: thin;
+    border-color:darkgray;
+    width:350px;
+    height: 450px;
+}
+.card:hover{
+    box-shadow: 10px 10px 20px 5px darkgrey, -10px -10px 20px 5px darkgrey;
+}
+.card-image{
+    height: 230px;
+    background-image: url('http://sites.ieee.org/sb-ufcg/files/2017/08/cropped-COISA-DO-SITE_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.card-btn{
+    color:white;
+    background-color: #2661a9;
+    font-size: 11px;
+    font-family:inherit;
+    width:90px;
+    height: 30px;
+    border-style: none;
+}
+.card-title{
+    color:black;
+    font-weight: bold;
+}
+.card-art{
+    color:black;
+}
 @keyframes icon3d {
   0% {
     text-shadow: 5px 4px #f44336, -5px -6px #2196f3;

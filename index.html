@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Outside resources-->
     <link href="css/style.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="icon" href="./img/favicon.ico" />
   </head>
 
   <body>
+      <nav id="navbr">
+        <ul id="menu">
+            <li><a href="#" class="navi">HOME</a></li>
+            <li><a href="#" class="navi">ABOUT</a></li>
+            <li><a href="#" class="navi">EVENTS</a></li>
+            <li><a href="#" class="navi">UPDATES</a></li>
+            <li><a href="#" class="navi">IEEE</a></li>
+        </ul>
+        <div class="progress-bar" id="myBar"></div>
+          <img src="img/IEEE.png" id="navimg">
+      </nav>
     <header>
       <div class="main">
         <div class="col-centred">
@@ -31,8 +34,20 @@
           <span class="text-3d">Coming Soon</span>
         </div>
       </div>
+        <div id="updates">
+          <h1>UPDATES</h1>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-info">
+                    <h2 class="card-title">TITLE</h2>
+                    <article class="card-art">
+                        description goes here
+                    </article>
+                    <button class="card-btn">Read More</button>
+                </div>
+            </div>
+      </div>
     </header>
-
     <section class="col-centred flex-center">
       <img src="./img/IEEE.png" alt="">
       <img src="./img/R10.png" alt="">
@@ -44,7 +59,7 @@
     <footer>
       <div class="holder">
         <a href="https://ieee.org">
-          <img class="footer-logo" src="./img/IEEE-logo.svg" alt=""></i>
+          <img class="footer-logo" src="./img/IEEE-logo.svg" alt="">
           </a>
         <h1>IEEE SB | MEC</h1>
         <p>We are a thriving community of Students of Model Engineering College associated with the 
@@ -53,10 +68,11 @@
 
       <div class="social flex-center">
         <a href="https://twitter.com/ieeemec" target="_blank"><i class="fa fa-twitter fa-4x icon-3d"></i></a>
-        <a href="https://facebook.com/ieeemec" target="_blank"></a><i class="fa fa-facebook fa-4x icon-3d"></i></a>
-        <a href="https://instagram.com/ieeemec" target="_blank"></a><i class="fa fa-instagram fa-4x icon-3d"></i></a>
+        <a href="https://facebook.com/ieeemec" target="_blank"><i class="fa fa-facebook fa-4x icon-3d"></i></a>
+        <a href="https://instagram.com/ieeemec" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i></a>
         <a href="https://linkedin.com/company/ieeemec" target="_blank"><i class="fa fa-linkedin fa-4x icon-3d"></i></a>
       </div>
     </footer>
+      <script src="js/app.js"></script>
   </body>
 </html>
