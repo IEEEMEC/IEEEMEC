@@ -10,7 +10,7 @@ function myFunction() {
         document.getElementById('navbar').style.color="white"
         }
     else{
-        document.getElementById('navbar').style.backgroundColor="#303030";
+        document.getElementById('navbar').style.backgroundColor="rgba( 0, 0, 0, 0.85)";
         document.getElementById('navbar').style.color="white"
         }
 }
