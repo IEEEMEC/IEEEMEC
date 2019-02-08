@@ -102,18 +102,27 @@ footer {
   font-size: 0.8em;
 }
 
-.ender a {
+.no-link {
   text-decoration: none;
   color: inherit;
 }
 
-.ender a:hover{
+.no-link:hover{
   color: #2661a9;
 }
 
 #heart {
   font-size: 1.2em;
   color: red;
+}
+
+#details {
+  padding-top: 5%;
+  padding-right: 2%;
+  text-align: center;
+  min-width: 33%;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .holder {
@@ -182,15 +191,18 @@ footer {
   color: #2661a9;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
   .flex-center img {
     display: none;
   }
   .flex-center img.mec-logo {
     display: block;
   }
-  footer {
+  .inner {
     display: block;
+  }
+  #details {
+    padding: 0;
   }
   .social {
     min-height: 30vh;
@@ -318,7 +330,7 @@ html {
   font-size: 16px;
   font-weight: 300;
   margin-top: 5px;
-  color: #ccc;
+  color: #666;
   -webkit-transition: all 0.3s linear;
 }
 
