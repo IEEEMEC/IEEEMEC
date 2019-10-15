@@ -189,30 +189,6 @@ body {
 }
 
 /*========= Navigation ========*/
-#ieeebar {
-    background: #303030;
-    height: 1.8rem;
-    width: 100%;
-    overflow: hidden;
-    padding: .2em;
-    margin: 0;
-    text-align: center;
-}
-
-#ieeebar a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#ieeebar a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
-#ieeebar>li {
-    display: inline;
-}
-
 .static {
     position: absolute;
     height: 6rem;
