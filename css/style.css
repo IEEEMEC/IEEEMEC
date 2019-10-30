@@ -348,7 +348,7 @@ h1 {
 }
 
 /*===== About Section ========*/
-#about .overlay {
+#about article .overlay {
     position: absolute;
     background: rgba(100, 100, 100, 0.7);
     min-height: 50vh;
@@ -359,7 +359,7 @@ h1 {
 }
 
 #about {
-    min-height: 40rem;
+    min-height: 50vh;
 }
 
 #about h1 {
@@ -369,7 +369,6 @@ h1 {
 #about .parallax {
     padding: 7em;
     min-height: 50vh;
-    height: 100rem;
     background-image: url(../img/college.jpg);
     background-size: cover;
     z-index: 1;
