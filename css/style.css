@@ -369,7 +369,7 @@ h1 {
 #about .parallax {
     padding: 7em;
     min-height: 50vh;
-    height: 40rem;
+    height: 100rem;
     background-image: url(../img/college.jpg);
     background-size: cover;
     z-index: 1;
@@ -403,7 +403,7 @@ h1 {
     #about .overlay {
         margin-top: -5em;
         height: 100vh;
-        padding: 0 0 6.5em 0;
+        padding: 1em;
     }
 
     #college {
@@ -412,7 +412,11 @@ h1 {
         margin: 0 0 1em;
         z-index: 50;
         padding: 5em 1em 2em 1em;
-        max-width: 100vw;
+        max-width: 80vw;
+    }
+
+    #college p {
+        padding: 2em;
     }
 
 }
@@ -494,7 +498,6 @@ h1 {
 
 #college p {
     font-weight: 400;
-    padding-right: 2em;
     max-width: 100%;
     text-align: justify;
 }
